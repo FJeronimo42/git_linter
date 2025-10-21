@@ -19,4 +19,6 @@ iris_data <- iris %>%
   group_by(Species) %>% 
   summarise(Sepal.Rate.Mean = mean(Sepal.Rate)) %>% # Responsabilidade da Heloisa
   glimpse()
-  
+
+# Plot
+ggplot
