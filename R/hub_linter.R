@@ -2,10 +2,10 @@
 dir.create('Data')
 dir.create('R')
 dir.create('Figures')
-
+#Volta Ale
 # Biblioteca
 library('tidyverse')
-
+library("bipartite")
 # Dados
 data(iris)
 
